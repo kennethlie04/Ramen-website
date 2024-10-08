@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Song Myung', serif;
+
+}
+
+
+body{
+    
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+}
+
+.container{
+    
+    position: absolute;
+    width: 100%;
+    height: 1812px;
+    
+    top: 0px;
+   
+    background: #FFD3B4;
+    
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+height: 167px;
+
+top: 0px;
+    z-index: 10;
+    background: rgba(48, 29, 29, 0.6);
+}
+.logo{
+    position: absolute;
+    width: 145px;
+    height: 152px;
+    left: 150px;
+    top: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 53px;
+
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 200px;
+    padding-right: 40px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:  #FFD3B4;
+    font-size: 36px;
+
+}
+nav ul li a:hover {
+  color: #FFD3B4;
+  text-decoration: underline;
+}
+
+.content{
+    width: 50%;
+    height: 60%;
+    
+    margin: 400px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+}
+.black-ramen{
+    filter: drop-shadow(20px 20px 10px rgba(9, 0, 0, 0.35));
+border-radius: 183px;
+}
+h2{
+    margin-top: 20px;
+    font-size: 80px;
+    color: #84422C;
+}
+
+h3{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.promocard{
+    margin-top: 100px;
+}
+
+.payment{
+    display: flex;
+    justify-content: space-around;
+}
+.payment img{
+    margin: 0 35px;
+}
+.container1{
+    position: absolute;
+    width: 100%;
+    height: 907px;
+    left: 00px;
+    top: 1810px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #84422C;
+
+}
+.circleCont{
+    position: absolute;
+    top: 103%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+
+.circle{
+    background: #FFBF91;
+    border-radius: 50%;
+    margin: 120px;
+    
+    width: 279px;
+    height: 279px;
+    
+    
+    z-index: 5;
+}
+
+.icons{
+    position: absolute;
+    width: 8%; /* Adjust the size of the SVG icon */
+    height: 14%; 
+    top: 40%;
+    margin-left: 4.8%;
+    margin-bottom: 5;
+    
+    fill: #84422C;
+}
+
+.circle span{
+    display: block;
+    text-align: center;
+    color: #FFBF91;
+    font-size: 36px;
+    margin-top: 300px;  
+}
+
+.footer-sect{
+    
+}
+
+.contact{
+    font-size: 36px;
+    /* margin-bottom: 10px; */
+    margin-top: 200px;
+    color: #FFBF91;
+
+}
+.sosmed{
+    border-radius: 50%;
+    align-content: space-between;
+    
+    display: flex;
+    justify-content: center;
+}
